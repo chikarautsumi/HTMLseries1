@@ -1,0 +1,119 @@
+/* header---------------------------------------------- */
+div#header {
+    width: 1000px;
+    height: 55px;
+    background-color:pink;
+}
+a#site_title{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+div#header #header-menu{ 
+    list-style: none;
+    float: right;
+}
+
+#header-menu li{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 25px;
+}
+
+/* banner---------------------------------------------- */
+img {
+    width: 1000px;
+}
+
+/* aside---------------------------------------------- */
+div#aside {
+    float: left;
+    width: 250px;
+    height: 500px;
+}
+
+#side-menu {
+    list-style: none;
+    display: table-row;
+}
+
+#side-menu li{
+    text-decoration: none;
+    text-align: left;
+    padding: 25px 130px 20px 0px;
+    background-color: pink;
+    margin-top:10px;
+}
+
+#side-menu li:hover{
+    opacity: 0.5;
+}
+
+/* article---------------------------------------------- */
+div#article {
+    float: left;
+    width: 750px;
+    height: 500px;
+}
+
+table {
+    padding-top: 20px;
+    border-collapse: separate;
+}
+
+table th {
+    text-align: right;
+    width: 150px;
+    padding-top: 20px;
+}
+
+table td {
+    padding-top: 20px;
+}
+
+.name,.mailaddress,.comment {
+    width:480px;
+}
+
+.comment {
+    height: 7rem;
+}
+
+.button_field { 
+    text-align: center;
+}
+
+input.button{
+    display: inline-block;
+    border-radius: 5%;
+    font-size: 18pt;
+    text-align    : center;
+    cursor        : pointer;
+    padding       : 12px 12px;
+    background    : #0065e9;
+    color         : #ffffff;
+    border        : 2px solid #0065e9;
+}
+
+input.button:hover {
+    opacity: 0.5;
+}
+
+
+/* footer---------------------------------------------- */
+div#footer {
+    text-align: center;
+    clear: left;
+    width: 1000px;
+    height: 100px;
+    background-color: rgb(68, 68, 68);
+}
+
+div#footer p {
+    display: inline-block;
+    vertical-align: middle; 
+    padding-top:20px;
+}
